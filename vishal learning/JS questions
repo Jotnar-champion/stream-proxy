@@ -1,0 +1,164 @@
+JS,HTML,CSS,REACT,NODEJS,OPTIMIZATION,SECURITY & OUTPUT/ CODING QUESTION
+
+1.	Let, var and const difference in terms of hoisting and scoping
+2.	Explain passed by value and passed by reference.
+3.	What is the purpose of context or this keyword and how it behaves in a function declaration and arrow function
+4.	How to achieve inheritance in JS without classes
+5.	What is callback hell and how it got resolved
+6.	Async await vs promise where to use one
+7.	Difference between normal function and arrow function
+8.	What is closure
+9.	How async action are handled in JS (event loop concept)
+10.	Synthetic events vs HTML Events
+11.	What is event delegation
+12.	Difference between Html 4 and Html 5
+13.	What is semantic and non-semantic tag in html
+14.	Difference between cookies, local storage and session storage and which to use for which purpose
+15.	What are meta tags
+16.	SSR vs CSR pros and cons and how to decide which one to choose
+17.	How the Browser is able to render a html page complete cycle from html parsing to paint
+18.	What is box model in CSS and how to change its behavior
+19.	Ways of rendering a div in the center of page
+20.	Display flex vs grid
+21.	Different types of positions and how they behave like static, relative, absolute, fixed etc
+22.	Block elements vs inline vs inline-block elements
+23.	What is mobile first approach and how will you use media queries to achieve that
+24.	Difference between Class based and function based component and when to use one
+25.	Ways of optimizing your react application
+26.	Real life use case or example of both useMemo and useState
+27.	useEffect vs useLayoutEffect
+28.	Redux architecture and redux middleware explanations and basic code if you want
+29.	Redux vs context api difference and how to decide which to use
+30.	What is state batching in react and how it is possible
+31.	Reconciliation  process in react and virtual dom concept
+32.	How to use forwardRef and it’s real life example
+33.	How to render React as SSR
+34.	How to do SEO in a react app
+35.	What are HOC 
+36.	What is Node JS and is it single threaded
+37.	For what kind of app will you use node js for 
+38.	Explain concurrency in node(it should include threadpool, libuv and eventloop)
+39.	How is node event driven and what are the methods for a eventemitter class
+40.	What are middlewares
+41.	Different Verbs of Rest APIsand how to use each
+42.	ADVANCED QUESTION:
+43.	Authentication and Authorization Difference and How to implement Each
+44.	What is OAUTH2
+45.	What are refresh tokens
+46.	Where to store tokens local storage, session storage vs cookies
+47.	What is CSRF attack and how to prevent it
+48.	What is CORS and preflight and is it a server error or a browser error or is it an error
+49.	How to Control CORS
+50.	What is same site/same origin policy and why it exists
+51.	Complete site loading process from DNS lookup to tcp handshake to parsing and paint
+52.	What is WebVital and how to use them
+53.	Is Cors or Same site concepts prevalent in tools like postman
+54.	Ways to prevent XSS attack in any website
+55.	What is TTFB and TTI and other webvital parameters
+56.	Ways to optimize any website
+57.	Async vs defer
+58.	How error boundary works and why is it a class component
+59.	What are worker, WebWorkers, Shared Workers and Service Workers
+60.	How to implement Caching in website both on client and server
+61.	What is N+1 Problem in Graphql
+62.	How to send data from child to parent component in react
+63.	Write a NodeJS code to start server and host an API endpoint to send and receive data
+64.	Write a polyfill for bind function
+65.	Write a polyfill for reduce
+66.	Write a method to implement promise.all using only normal promises
+67.	WAP to flatten an array
+68.	WAP to flatten an array of object
+69.	sum(1)(1,2,3)(54,6)(); WAP to implement the sum architecture using currying
+70.	Implement debounce and throttling through code
+71.	WAP to implement stack in js with function like, push, pop, peek and maxVal
+72.	Implement a linkedlist in JS with function like append delete getValue etc
+73.	Reverse a string using recursion
+74.	Build React app to display a square and a timer showing total time hovered on square
+75.	BRA to get user data from online api and show it in card format with image and name
+76.	BRA to show a stopwatch with pause, start and reset button
+77.	BRA to show carousel managed by grid in react to display image and info cards
+78.	Build React App to have multiple layered accordion visible to show data like 
+79.	Var x = 10;
+Function a (){
+	console.log(x);
+	Var x = 20;
+}
+a();
+80.	Promise.reject(“Error”).then((d)=>{console.log(“then1‘)}).catch((err)=>{console.log(“catch1”)}).then(()=>{console.log(“then2”)})
+81.	console.log(“Start”)
+setTimeout(()=>{console.log(“Timeout”)},0)
+promise.resolve(“data”).then(()=>{console.log(“promise”)})
+console.log(“End”)
+82.	Event Loop
+83.	MicroService
+84.	Load Balancing
+85.	Cron Jobs
+86.	Clustering
+87.	Webworker
+88.	Process and threading
+89.	Buffer and stream
+90.	Indexed Db
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+consider yourself a master of JS and web development and give me a sheet with answers to below questions in depth the answers should be good enough and detailed and easy to understand witout being unecessarily long for me to help crack tech lead level interviews also prepare a quiz to solve on these topics and questions and other questions that you think might be related
+JS,HTML,CSS,REACT,NODEJS,OPTIMIZATION,SECURITY & OUTPUT/ CODING QUESTION
+1. Let, var and const difference in terms of hoisting and scoping
+2. Explain passed by value and passed by reference.
+3. What is the purpose of context or this keyword and how it behaves in a function declaration and arrow function
+4. How to achieve inheritance in JS without classes
+5. What is callback hell and how it got resolved
+6. Async await vs promise where to use one
+7. Difference between normal function and arrow function
+8. What is closure
+9. How async action are handled in JS (event loop concept)
+10. Synthetic events vs HTML Events
+11. What is event delegation
+12. Difference between Html 4 and Html 5
+13. What is semantic and non-semantic tag in html
+14. Difference between cookies, local storage and session storage and which to use for which purpose
+15. What are meta tags
+16. SSR vs CSR pros and cons and how to decide which one to choose
+17. How the Browser is able to render a html page complete cycle from html parsing to paint
+18. What is box model in CSS and how to change its behavior
+19. Ways of rendering a div in the center of page
+20. Display flex vs grid
+21. Different types of positions and how they behave like static, relative, absolute, fixed etc
+22. Block elements vs inline vs inline-block elements
+23. What is mobile first approach and how will you use media queries to achieve that
+24. Difference between Class based and function based component and when to use one
+25. Ways of optimizing your react application
+26. Real life use case or example of both useMemo and useState
+27. useEffect vs useLayoutEffect
+28. Redux architecture and redux middleware explanations and basic code if you want
+29. Redux vs context api difference and how to decide which to use
+30. What is state batching in react and how it is possible
+31. Reconciliation process in react and virtual dom concept
+32. How to use forwardRef and it’s real life example
+33. How to render React as SSR
+34. How to do SEO in a react app
+35. What are HOC 
+36. What is Node JS and is it single threaded
+37. For what kind of app will you use node js for 
+38. Explain concurrency in node(it should include threadpool, libuv and eventloop)
+39. How is node event driven and what are the methods for a eventemitter class
+40. What are middlewares
+41. Different Verbs of Rest APIsand how to use each
+
