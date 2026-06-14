@@ -26,82 +26,31 @@ Read the docs at https://docs.movie-web.app/proxy/introduction
 
 --------------------------------------------------------------------------------------------------------
 
-PROFESSIONAL SUMMARY
-Senior Software Engineer with 8 years of cross-industry experience delivering business-critical platforms across luxury retail, healthcare, education technology, and workforce management. Known for engineering that moves metrics — architecting search and discovery systems serving 10M+ customer sessions, leading Core Web Vitals improvements that directly impact SEO rankings and conversion, and building cross-brand reusable architectures that eliminate duplication and accelerate team delivery. Deep expertise in React/Next.js, Node.js, AWS Serverless, and analytics platforms, with a consistent track record of owning modernization programs end-to-end across architecture, delivery, and production reliability.
+Act as an elite Staff Engineer and Technical Interview Coach. I have a critical 1st-round interview in 2 days for a Senior/Lead Full-Stack role (Next.js, Node.js, AWS, PostgreSQL/SQL Server). I am an 8-year enterprise developer, so DO NOT explain basic concepts like closures, React hooks, the event loop, Promises, async/await, IAM basics, or basic SQL. 
+Go online right now and crawl Reddit (e.g., r/cscareerquestions, r/javascript, r/aws), Glassdoor, LeetCode discuss forums, and tech blogs to find senior-level interview questions, real-world architectural traps, and highly focused resources for Marlabs or similar enterprise mid-to-senior rounds. 
+Provide me with a highly concentrated, advanced cheat sheet broken into these specific sections:
+1. THE "TRAP" QUESTIONS (Deep Technical Curveballs)
+Give me 5-6 advanced questions designed to trap a senior developer on things they think they know. 
+- Example: Edge cases in JS memory leaks despite using async/await; hidden bottlenecks in Next.js App Router streaming; race conditions in Node.js event-driven architectures. Provide the question and the exact, deep technical answer/solution.
+2. REAL-WORLD SCENARIO DILEMMAS & ARCHITECTURE (Problem + In-depth Solution)
+Provide deep, production-grade solutions for these exact scenarios:
+- JWT Security: What is the absolute best enterprise-grade pattern if an access token is compromised/stolen or expired? How do we safeguard against replay attacks without destroying performance?
+- Distributed Caching Strategy: Client-side vs. Server-side (Redis) caching. What are the major pitfalls (cache avalanche, stampede, consistency issues)? How do we handle high-throughput read/write optimization without stale data?
+- Technology Trade-offs: Give me a sharp, definitive architectural comparison and "Why" justification for:
+  * AWS API Gateway vs. Nginx (When to use which at enterprise scale?)
+  * Next.js App Router vs. Standard Client-Side React (Architectural and SEO/performance trade-offs).
+3. CRASH COURSE STUDY SOURCES (No long videos)
+I have 2 days. Do not link 4-5 hour tutorials. Provide links/names of high-signal, high-density resources: senior-targeted cheat sheets, GitHub repositories with production-grade Next.js/Node/AWS boilerplates, or deep-dive technical blogs/articles that I can read in 15 minutes to upgrade my mental models.
+4. 20 MUST-DO JS & UI/UX CODING ROUND REFRESHERS
+List 20 specific front-end/UI coding challenges or LeetCode-style JS questions that test deep JS concepts (e.g., building a custom debounce/throttle with trailing/leading options, custom Promise.all/race, virtualized lists, recursive DOM traversal, form builders with state validation). Just list the problems and the core JS/UI trap to watch out for.
+5. DSA PATTERN QUICK-REFRESH
+Give me 1-2 high-yield, senior-level questions for each of these patterns to practice live coding resilience:
+- Sliding Window
+- Two Pointer
+- Hashmap / Frequency Counter
+- Kadane's Algorithm
+For each, state the optimal time/space complexity and the core "trick" to solving it under pressure.
+dont't give Too basic. Dive deeper into the system architecture and edge cases.
+Focus heavily on the JWT rotation (Sliding sessions / Blacklisting) and Cache Consistency (Write-through vs. Cache-aside) answers it generates, as these are classic 8-year experience filters
 
-
-
-
-Here's the fully updated resume with all changes:
-
-VISHAL SOLANKI
-Senior Software Engineer | Full Stack & Cloud Platform Engineering
-Bengaluru, India | vishalsinghsolanki4@gmail.com | +91 8588017535 | LinkedIn
-
-PROFESSIONAL SUMMARY
-Senior Software Engineer with 8 years owning full-stack delivery across search, discovery, and analytics at high-traffic scale. At Neiman Marcus Group, drove React/Node.js modernization, cross-brand component architecture, Core Web Vitals optimization, AWS Serverless platform ownership, and server-side analytics migration — serving 10M+ sessions across NM, BG, and Horchow. Brings end-to-end ownership across architecture decisions, hands-on delivery, release planning, and production reliability.
-
-TECHNICAL SKILLS
-Category	Technologies
-Frontend	React.js (v16–v19), Next.js, Angular, TypeScript, JavaScript (ES6+), Redux, HTML5, CSS3, Microfrontends
-Backend	Node.js, Express.js, REST APIs, GraphQL, RabbitMQ, Microservices, Serverless Architecture
-Cloud & AWS	Lambda, API Gateway, DynamoDB, S3, EventBridge, OpenSearch, Elasticsearch, Fastly
-Analytics & Experimentation	Adobe Analytics, Tealium (EventStream, AudienceStream), Optimizely
-Databases	PostgreSQL, DynamoDB
-Observability & Testing	CloudWatch, Splunk, Jest, React Testing Library, Enzyme, Mocha
-Tools	Git, Bitbucket, JIRA, JFrog Artifactory, Docker, CI/CD, AWS SDK v3
-PROFESSIONAL EXPERIENCE
-Neiman Marcus Group (NMG) — Bengaluru, India
-Senior Engineer | Omni Experience | May 2022 – Present
-
-Product Discovery Platform
-Architected and delivered search, navigation, PLP, recommendation, and discovery capabilities serving 10M+ customer sessions across Neiman Marcus and Bergdorf Goodman using React, Next.js, Node.js, and AWS Serverless.
-Designed the first cross-brand reusable component architecture enabling BG to consume ~5 shared NM components across 2 teams — resolving security allowlisting, CSS isolation, package management, and subcomponent dependency conflicts.
-Drove platform-wide Lighthouse and Core Web Vitals optimization across NM and BG — achieving sub-0.1 CLS (75% improvement) among multiple metric improvements through rendering stabilization, layout shift elimination, and asset loading optimizations.
-Led React upgrade from v16 → v18 → v19, owning migration planning and story creation for team delegation; drove parallel test modernization from Enzyme to React Testing Library across the codebase.
-Migrated Node.js AWS Lambda services from AWS SDK v2 to v3, reducing bundle size and improving cold-start performance across the discovery platform.
-Upgraded Node.js Lambda runtimes to Node.js 20.x across multiple services, ensuring AWS support coverage, security compliance, and runtime performance gains.
-Integrated GRS-powered discovery services and implemented multi-level category navigation, improving product retrieval accuracy and merchandising flexibility across customer browse journeys.
-Owned production observability and incident resolution for critical discovery services via CloudWatch and Splunk; supported Optimizely A/B testing configurations and strengthened platform security through CSP enhancements.
-Analytics & Tag Management Platform
-Co-developed migration of enterprise analytics from client-side to server-side tag management using Tealium EventStream — migrating hundreds of tags and extensions across NM and BG web, iOS, and Android platforms while preserving Adobe Analytics reporting consistency.
-Designed analytics frameworks supporting customer journey measurement, search analytics, recommendation attribution, and business reporting across luxury retail brands.
-Integrated and governed third-party marketing platforms including Google Ads and Spotify via Tealium EventStream and AudienceStream.
-Designed and maintained data-layer integrations and tracking standards enabling scalable analytics collection across web and mobile applications.
-QSS Technosoft Pvt Ltd — Noida, India
-Senior Software Engineer | August 2018 – May 2022
-
-Rediker (School Management Platform)
-
-Engineered full-stack school management capabilities using React.js, Node.js, GraphQL, PostgreSQL, Prisma, and Docker — supporting administration, payments, and reporting for district-scale educational operations.
-Designed and optimized APIs, payment workflows, and multi-tenant reporting modules supporting complex administrative requirements.
-Implemented automated test coverage using Jest and React Testing Library; configured CI/CD pipelines using Jenkins and Docker for streamlined deployment workflows.
-Swaggie (Workforce Matching Platform)
-
-Led a team of 3 engineers to architect and deliver a workforce matching platform using Angular, Node.js, and REST-based microservices — from system design through production deployment.
-Integrated third-party geolocation services and automated job ingestion pipelines using CSV-driven data seeding scripts to support platform scale.
-Architected RESTful service contracts and backend matching logic supporting real-time availability matching and location-based job discovery.
-Eldermark (Healthcare Management Platform)
-
-Delivered healthcare management platform features using React.js, Node.js, GraphQL, RabbitMQ, Apollo Client, and Express.js across the full SDLC.
-Built reusable frontend component architecture and event-driven backend workflows using RabbitMQ for asynchronous processing and Apollo Client for state management.
-Maintained integrations with legacy 4D and Wakanda data systems while modernizing the frontend architecture to React with GraphQL and Apollo Client.
-EDUCATION
-Bachelor of Technology (B.Tech)
-ABES Institute of Technology | Ghaziabad, AKTU | 2014 – 2018
-
-ACHIEVEMENTS
-Employee of the Month — June 2019
-Employee of the Month — August 2020
-Team Player of the Year — 2019–2020
-Three changes worth noting:
-
-React (v16–v19) added explicitly to skills — it signals you own the full upgrade lifecycle, not just usage
-Angular added to Frontend — it's in Swaggie and is a real, separate skill worth ATS credit
-Enzyme removed from Testing was considered but kept — it shows you know the old tooling AND led the migration away from it, which is stronger than omitting it
-
-
-
-
-
-
+special note: give both the list of questions and also sources to get deep and better understanding
